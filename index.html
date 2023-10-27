@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Handjet:wght@600&family=Varela+Round&display=swap" rel="stylesheet">   
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="top"><h1>BASIC CALCULATOR</h1></div>
+    <div class="calculator">
+        <input type="text" draggable="true" id="display" readonly>
+        <button class="buttonc" onclick="clearDisplay()">C</button>
+        <button class="buttonno" onclick="appendToDisplay('7')">7</button>
+        <button class="buttonno" onclick="appendToDisplay('8')">8</button>
+        <button class="buttonno" onclick="appendToDisplay('9')">9</button>
+        <button class="buttono" onclick="appendToDisplay('+')">+</button>
+        <button class="buttonno" onclick="appendToDisplay('4')">4</button>
+        <button class="buttonno" onclick="appendToDisplay('5')">5</button>
+        <button class="buttonno" onclick="appendToDisplay('6')">6</button>
+        <button class="buttono" onclick="appendToDisplay('-')">-</button>
+        <button class="buttonno" onclick="appendToDisplay('1')">1</button>
+        <button class="buttonno" onclick="appendToDisplay('2')">2</button>
+        <button class="buttonno" onclick="appendToDisplay('3')">3</button>
+        <button class="buttono" onclick="appendToDisplay('*')">*</button>
+        <button class="buttonno" onclick="appendToDisplay('0')">0</button>
+        <button class="buttone" onclick="calculateResult()">=</button>
+        <button class="buttono" onclick="appendToDisplay('/')">/</button>
+        <button class="buttono" onclick="appendToDisplay('**')">Power</button>
+        <button class="buttono" onclick="appendToDisplay('%')">Mod</button>
+        <button class="buttono" onclick="appendToDisplay('**0.5')">Root</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+body
+{
+    font-family: 'Acme', sans-serif;
+    background-color:azure;
+}
+.top
+{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 2.5%;
+
+}
+.top h1
+{
+    padding: 3%;
+    color: yellow;
+    background: linear-gradient(to left, #bc4e9c, #f90657);
+    border-radius: 7px;
+    border-right: 3px solid #a73d89;
+    box-shadow: 3px 3px 5px 0 #f9065785;
+}
+.calculator {
+    border-radius: 4%;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffb4dd;
+    box-shadow: 3px 3px 5px 0 rgb(255, 129, 213);
+    border: rgb(255, 164, 228);
+}
+input[type="text"] {
+    height: 70px;
+    background-color: rgb(214, 213, 213);
+    width: 485px;
+    font-family: 'Handjet', sans-serif;
+    font-size: 300%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 12px 12px 3px 3px;
+    border-color: grey;
+}
+h1
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.buttonno {
+    background-color: rgb(171, 255, 248);
+    font-family: 'Concert One', sans-serif;
+    width: 110px;
+    height: 75px;
+    margin: 5px;
+    cursor:grab;
+    font-size: 200%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0 rgba(47, 48, 48, 0.562);
+    transition: transform  0.2s;
+    
+}
+
+.buttonc {
+    
+    background-color: rgb(227, 255, 127);
+    font-family: 'Concert One', sans-serif;
+    width: 110px;
+    height: 75px;
+    margin: 5px;
+    cursor:grab;
+    font-size: 200%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0 rgba(47, 48, 48, 0.562);
+    transition: transform 0.2s;
+}
+.buttono {
+    background-color: rgb(173, 255, 170);
+    font-family: 'Concert One', sans-serif;
+    width: 110px;
+    height: 75px;
+    margin: 5px;
+    cursor:grab;
+    font-size: 200%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0 rgba(2, 77, 77, 0.479);
+    transition: transform 0.2s;
+    
+}
+
+.buttone
+{
+    background-color: #88f5fd;
+    font-family: 'Concert One', sans-serif;
+    width: 239px;
+    height: 75px;
+    margin: 5px;
+    cursor:grab;
+    font-size: 200%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0 rgba(2, 77, 77, 0.479);
+    transition: transform 0.2s;
+}
+
+.buttonc:hover
+{
+    transform: scale(1.1); /* Increase the size of the button on hover */
+}
+.buttonno:hover
+{
+    transform: scale(1.1); /* Increase the size of the button on hover */
+}
+.buttono:hover
+{
+    transform: scale(1.1); /* Increase the size of the button on hover */
+}
+.buttone:hover
+{
+    transform: scale(1.1); /* Increase the size of the button on hover */
+}
