@@ -9,8 +9,7 @@ body
     margin: 0;
     padding: 0%;
 }
-/* For Mobile */
-@media (max-width: 480px) {
+@media only screen and (min-width: 768px) {
     .calculator {
         width: 80%;
         margin-bottom: 2.5%;
@@ -19,9 +18,26 @@ body
     h1 {
         width: 90%;
     }
-    button
-    {
-        height: ;
+}
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    .calculator {
+        width: 37%;
+        margin-bottom: 2.5%;
+        margin-top: 1.7%;
+    }
+    h1 {
+        width: 80%;
+    }
+/* }
+@media (max-width: 480px) {
+    .calculator {
+        width: 80%;
+        margin-bottom: 2.5%;
+        margin-top: 3%;
+    }
+    h1 {
+        width: 90%;
     }
 }
 
@@ -56,7 +72,7 @@ body
     h1 {
         width: 80%;
     }
-}
+} */
 
 h1
 {
