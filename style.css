@@ -9,7 +9,8 @@ body
     margin: 0;
     padding: 0%;
 }
-@media only screen and (min-width: 768px) {
+
+@media (max-width: 1100px) {
     .calculator {
         width: 80%;
         margin-bottom: 2.5%;
@@ -19,8 +20,20 @@ body
         width: 90%;
     }
 }
-/* Mobile styles */
-@media only screen and (max-width: 767px) {
+
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .calculator {
+        width: 42%;
+        margin-bottom: 2.5%;
+        margin-top: 3%;
+    }
+    h1 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1400px) {
     .calculator {
         width: 37%;
         margin-bottom: 2.5%;
@@ -30,50 +43,6 @@ body
         width: 80%;
     }
 }
-/* 
-@media (max-width: 480px) {
-    .calculator {
-        width: 80%;
-        margin-bottom: 2.5%;
-        margin-top: 3%;
-    }
-    h1 {
-        width: 90%;
-    }
-}
-
-@media (min-width: 480px) and (max-width: 600px) {
-    .calculator {
-        width: 65%;
-        margin-bottom: 2.5%;
-        margin-top: 3%;
-    }
-    h1 {
-        width: 90%;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 1000px) {
-    .calculator {
-        width: 55%;
-        margin-bottom: 2.5%;
-        margin-top: 3%;
-    }
-    h1 {
-        width: 80%;
-    }
-}
-
-@media (min-width: 1000px) {
-    .calculator {
-        width: 37%;
-        margin-bottom: 2.5%;
-        margin-top: 1.7%;
-    }
-    h1 {
-        width: 80%;
-    }
-} */
 
 h1
 {
