@@ -18,6 +18,11 @@ body
     }
     h1 {
         width: 90%;
+        font-size: 330%;
+    }
+    button
+    {
+        font-size: 360%;
     }
 }
 
@@ -30,6 +35,11 @@ body
     }
     h1 {
         width: 80%;
+        font-size: 210%;
+    }
+    button
+    {
+        font-size: 200%;
     }
 }
 
@@ -41,6 +51,11 @@ body
     }
     h1 {
         width: 80%;
+        font-size: 210%;
+    }
+    button
+    {
+        font-size: 200%;
     }
 }
 
@@ -50,7 +65,6 @@ h1
     padding-top: 0.9%;
     padding-bottom: 0.9%;
     color: rgb(0, 238, 255);
-    font-size: 210%;
     background-color:  #007bff;
     border-radius: 12px;
     box-shadow: 0px 0px 10px 0 #000000bd;
@@ -84,7 +98,6 @@ button
     height: 110%;
     border: none;
     margin:0%;
-    font-size: 200%;
     font-family: 'Concert One', sans-serif;
     transition: transform  0.2s;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.322);
