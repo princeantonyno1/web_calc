@@ -12,17 +12,23 @@ body
 
 @media (max-width: 1100px) {
     .calculator {
-        width: 80%;
+        width: 90%;
         margin-bottom: 2.5%;
         margin-top: 3%;
     }
     h1 {
         width: 90%;
-        font-size: 330%;
+        font-size: 550%;
     }
     button
     {
-        font-size: 360%;
+        font-size: 475%;
+        border-radius: 69px;
+    }
+    input
+    {
+        font-size: 550%;
+        width: 94%;
     }
 }
 
@@ -40,6 +46,11 @@ body
     button
     {
         font-size: 200%;
+        border-radius: 25px;
+    }input
+    {
+        font-size: 320%;
+        width: 97%;
     }
 }
 
@@ -56,6 +67,11 @@ body
     button
     {
         font-size: 200%;
+        border-radius: 25px;
+    }input
+    {
+        font-size: 320%;
+        width: 97%;
     }
 }
 
@@ -72,7 +88,7 @@ h1
     text-align: center;
 }
 .calculator {
-    border-radius: 4%;
+    border-radius: 20px;
     padding: 20px;
     background-color: #c6dfec;
     box-shadow: 0px 2px 8px 0 #447797a9;
@@ -80,6 +96,7 @@ h1
     flex-direction: column;
     justify-content: center;
     align-items: center ;
+    padding-bottom: 30px;
 }
 div
 {
@@ -94,19 +111,13 @@ div
 
 button
 {
-    width: 22.5%;
+    width: 21%;
     height: 110%;
     border: none;
     margin:0%;
     font-family: 'Concert One', sans-serif;
     transition: transform  0.2s;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.322);
-    border-radius: 25px;
-
-}
-#eq
-{
-    width: 48.3334%; 
 }
 .buttonno{
     background-color: #48a2f3;
@@ -131,10 +142,8 @@ button
 input[type="text"] {
     height: auto;
     background-color: rgb(214, 213, 213);
-    width: 97%;
     height:100%;
     font-family: 'Handjet', sans-serif;
-    font-size: 300%;
     padding: 1%;
     margin: 1% 0;
     border-radius: 15px 15px 3px 3px;
